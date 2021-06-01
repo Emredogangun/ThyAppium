@@ -35,8 +35,8 @@ public class HookImpl {
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "8.1");
         //caps.setCapability("avd","Emre test");
-        caps.setCapability("appPackage", "com.thy.mobile");
-        caps.setCapability("appActivity","com.thy.mobile.ui.activities.ActTHYMain");
+        caps.setCapability("appPackage",  "com.turkishairlines.mobile");
+        caps.setCapability("appActivity","com.turkishairlines.mobile.ui.main.MainActivity");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         caps.setCapability(MobileCapabilityType.NO_RESET, true);
         caps.setCapability(MobileCapabilityType.FULL_RESET, false);
@@ -47,11 +47,11 @@ public class HookImpl {
         driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),caps);
         wait = new WebDriverWait(driver, 10);
     }
-
+/*
     @AfterScenario
     public void afterScenario() {
         if(driver != null)
             driver.quit();
-    }
+    }*/
 
 }
