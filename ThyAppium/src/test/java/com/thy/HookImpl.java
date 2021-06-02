@@ -2,6 +2,7 @@ package com.thy;
 
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
+import element.Elements;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -16,12 +17,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class HookImpl {
+public class HookImpl extends Elements {
     private Logger logger = LoggerFactory.getLogger(getClass());
     protected static FluentWait<AppiumDriver<MobileElement>> appiumFluentWait;
     protected boolean localAndroid = true;
     public WebDriverWait wait;
-    protected static AppiumDriver<MobileElement> driver;
+
 
     //Elements
     String secondNewJob = "//android.widget.FrameLayout[2]/android.widget.LinearLayout/" +

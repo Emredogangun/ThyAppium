@@ -1,4 +1,4 @@
-Getting Started with Gauge
+THY Mobil Test
 ==========================
 
 
@@ -6,26 +6,13 @@ Get Started
 -----------
 
 tags: First case
-* "3" saniye bekle
-* Al butonuna varsa tikla
-* "3" saniye bekle
-*Tek Yön Uçuş seç
-* "3" saniye bekle
-*kalkış yeri seç
-*"3" saniye bekle
-*Kalkış yerini "SAW" olarak seç
-*"3" saniye bekle
-*Varış yerini "ESB" olarak seç
-*"3" saniye bekle
-*Tarih seç
-*"3" saniye bekle
-*Kişi sayısını "1" artır
-*"3" saniye bekle
-*Uçuş ara
-*"3" saniye bekle
-*Uçuş liste kontrol
-*"3" saniye bekle
-*Ekonomik Uçuş seç
-*"3" saniye bekle
-*Devam Butonuna tıklanır
-*"3" saniye bekle
+* Bilet al butonuna tıklanır
+* Tek yön uçuş seçilir
+* Yön bilgisi olarak SAW to ESB Seçilir
+* Tarih bilgisi günün tarihinden 2 gün sonraya seçilir
+* Tamam butonuna tıklanır
+* Yetişkin bilgisi 2 olarak seçilir
+* Uçuş ara butonuna tıklanır.
+* Uçuşların listelendiği kontrol edilir
+* Ekonomik uçuş seçilir
+* Devam Butonuna tıklanır
